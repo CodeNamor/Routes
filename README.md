@@ -1,5 +1,5 @@
-# EI-Golang-Routes
-EI-Golang-Routes is a module for adding the common routes to an existing handler.  
+# Routes
+Routes is a Go module for adding the common routes to an existing handler.  
 At the moment those routes consist of:
 * /health
 * /version
