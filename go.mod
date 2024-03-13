@@ -5,14 +5,12 @@ go 1.20
 require (
 	github.com/CodeNamor/Common v0.0.0
 	github.com/CodeNamor/Config v0.0.0
-	github.com/codenamor/config v0.0.0-20240312163000-aa75cf9783fa
 	github.com/gorilla/mux v1.8.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.9.0
 )
 
 require (
-	github.com/CodeNamor/HTTP v0.0.0-20240311170143-30bbca2b54cd // indirect
 	github.com/CodeNamor/errors v0.0.0-20240308212513-420b05780a28 // indirect
 	github.com/VividCortex/gohistogram v1.0.0 // indirect
 	github.com/ascarter/requestid v0.0.0-20170313220838-5b76ab3d4aee // indirect
@@ -31,11 +29,4 @@ require (
 	github.com/sethgrid/pester v1.2.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-)
-
-replace (
-	github.com/CodeNamor/Common => ../comon
-	github.com/CodeNamor/Config => ../config
-	github.com/CodeNamor/HTTP => ../http
-	github.com/codenamor/custom-logging/custom_logging => ../custom_logging
 )
