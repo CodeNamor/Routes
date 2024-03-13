@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	config "github.com/CodeNamor/config"
+	config "github.com/CodeNamor/Config"
 	log "github.com/sirupsen/logrus"
 )
 
