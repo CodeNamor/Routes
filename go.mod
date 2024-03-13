@@ -1,4 +1,4 @@
-module github.com/codenamor/routes
+module github.com/CodeNamor/routes
 
 go 1.20
 
